@@ -17,6 +17,9 @@ export default {
         "dark-02": "#51545C",
         "light-orange": "#FFF1E9",
         "brand-green": "#15AE73",
+        "brand-blue": "#0546E0",
+        "disabled-gray": "#919EAB",
+        "almost-white":"#C4CDD5"
       },
     },
   },

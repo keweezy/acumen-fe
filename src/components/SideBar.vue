@@ -14,7 +14,6 @@
       <div class="text-xs text-gray-900 mt-4 text-light-gray">App Name</div>
     </div>
 
-    <!-- Navigation items -->
     <nav class="flex-1">
       <ul>
         <li v-for="(item, index) in navigationItems" :key="index">
@@ -122,6 +121,6 @@ const navigationItems = [
 .side-link:hover .container-icon > rect,
 .active-link .container-icon > path,
 .active-link .container-icon > rect {
-  fill: #ea8d51; /* Change stroke color to red when link is active */
+  fill: #ea8d51;
 }
 </style>

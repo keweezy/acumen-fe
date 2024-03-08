@@ -4,11 +4,11 @@ import NavBar from "./components/Navbar.vue";
 </script>
 
 <template>
-  <div class="flex min-h-screen">
+  <div class="flex h-screen">
     <side-bar />
     <div className="w-full flex flex-col">
       <NavBar />
-      <main className="flex-grow flex flex-col p-5">
+      <main className="flex-grow flex flex-col p-5 overflow-y-auto">
         <router-view />
       </main>
     </div>
