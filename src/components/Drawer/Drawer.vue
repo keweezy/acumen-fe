@@ -26,12 +26,12 @@
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { ref } from "vue";
 import IconClose from "../../IconSVGs/IconClose.vue";
 
 defineProps(["label"]);
 
-const isOpen = ref(false);
+const isOpen = ref(true);
 
 
 function closeDrawer() {

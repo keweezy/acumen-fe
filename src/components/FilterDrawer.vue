@@ -62,12 +62,14 @@
           />
         </div>
 
-        <custom-button
-          class="px-5 mb-5"
-          label="Filter Table"
-          type="submit"
-          primary
-        />
+        <div class="px-8 w-full mb-5">
+          <custom-button
+            class="w-full"
+            label="Filter Table"
+            type="submit"
+            primary
+          />
+        </div>
         <custom-button
           class="px-5"
           label="Clear Filter"
