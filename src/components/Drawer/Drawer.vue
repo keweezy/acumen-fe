@@ -27,7 +27,7 @@
 
 <script setup>
 import { ref, reactive } from "vue";
-import IconClose from "../IconSVGs/IconClose.vue";
+import IconClose from "../../IconSVGs/IconClose.vue";
 
 defineProps(["label"]);
 

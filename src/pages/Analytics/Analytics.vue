@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import AnalyticsCard from "../../components/AnalyticsCard.vue";
+import AnalyticsCard from "../../components/AnalyticsCard/AnalyticsCard.vue";
 import { ref, onBeforeMount, computed } from "vue";
 import axios from "../../http/index";
 import { formatBytes } from "../../utilities";
@@ -83,4 +83,4 @@ export default {
     };
   },
 };
-</script>
+</script>../../components/AnalyticsCard/AnalyticsCard.vue

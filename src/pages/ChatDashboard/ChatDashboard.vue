@@ -48,7 +48,7 @@
   </template>
   
   <script>
-  import AnalyticsCard from "../../components/AnalyticsCard.vue";
+  import AnalyticsCard from "../../components/AnalyticsCard/AnalyticsCard.vue";
   import MessageTable from "../../components/Table.vue";
   import Pagination from "../../components/Pagination.vue";
   import Tab from "../../components/Tab.vue";
@@ -143,4 +143,4 @@
     },
   };
   </script>
-  
+  ../../components/AnalyticsCard/AnalyticsCard.vue

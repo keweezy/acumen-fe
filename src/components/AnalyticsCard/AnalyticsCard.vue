@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import SkeletonLoader from "./SkeletonLoader.vue";
+import SkeletonLoader from "./../SkeletonLoader.vue";
 
 defineProps(["title", "value", "loading"]);
 </script>

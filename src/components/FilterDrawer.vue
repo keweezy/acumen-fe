@@ -84,7 +84,7 @@ import { ref, reactive } from "vue";
 import CustomTextField from "./CustomTextField.vue";
 import CustomSelectField from "./CustomSelectField.vue";
 import CustomButton from "./CustomButton.vue";
-import Drawer from "./Drawer.vue";
+import Drawer from "./Drawer/Drawer.vue";
 
 const messagesOptions = [
   { label: "0 - 500 Messages", value: "0-500" },
